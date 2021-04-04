@@ -29,6 +29,7 @@ client.registry
 	})
 	.registerGroups([
 		['animal', 'gato'],
+		['general', 'tired of doing these']
 	])
 	.registerCommandsIn(path.join(__dirname, 'modules'));
 
