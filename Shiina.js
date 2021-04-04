@@ -3,6 +3,7 @@ const { CommandClient, SQLiteProvider } = require('discord.js-commando');
 const { PREFIX, UWUOWO, KEIKOV2, INVITELOL } = process.env;
 const sqlite3 = require('sqlite3');
 const sqlite = require('sqlite');
+const path = require('path');
 
 const client = new CommandoClient({
 	commandPrefix: PREFIX,
@@ -26,6 +27,7 @@ client.registry
 		unknownCommand: false,
 		prefix: false,
 	})
+	.registerCommandsIn(path.join(__dirname, 'modules'));
 
 client.on("warn", (e) => console.warn(e));
 client.on("error", (e) => console.error(e));
