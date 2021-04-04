@@ -2,11 +2,11 @@ const { Command } = require('discord.js-commando');
 const { MessageEmbed } = require('discord.js');
 const axios = require('axios');
 
-module.exports = class animals extends Command {
+module.exports = class animal extends Command {
     constructor(client) {
         super(client, {
             name: 'quack',
-            group: 'animals',
+            group: 'animal',
             memberName: 'quack',
             description: 'quack',
         })
