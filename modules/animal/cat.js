@@ -19,7 +19,6 @@ module.exports = class animals extends Command {
         ('RES', res.data.url)
       
         const UwU = new MessageEmbed()
-            .setColor('RANDOM')
             .setImage(res.data.url)
 
         msg.channel.send(UwU)
