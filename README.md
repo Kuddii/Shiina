@@ -1,5 +1,4 @@
 # Shiina
 UwU
 
-<script src="https://discordbotlist.com/widget/index.js" async></script>
-<dbl-widget bot-id="bot-shiina-0167" centered></dbl-widget>
+[![Discord](https://img.shields.io/discord/781158416521101312?style=for-the-badge)](https://discord.gg/QJaGpnd7wY)
