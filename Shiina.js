@@ -27,6 +27,9 @@ client.registry
 		unknownCommand: false,
 		prefix: false,
 	})
+	.registerGroups([
+		['animal', 'gato'],
+	])
 	.registerCommandsIn(path.join(__dirname, 'modules'));
 
 client.on("warn", (e) => console.warn(e));
