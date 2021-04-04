@@ -16,7 +16,6 @@ module.exports = class general extends Command {
         let avatar = user.displayAvatarURL({ size: 1024, format: "png", dynamic: true });
 
         const UwU = new MessageEmbed()
-            .setColor('#f99fff')
             .setImage(avatar)
 
         msg.channel.send(UwU)
