@@ -1,0 +1,17 @@
+{
+    "name": "shiina",
+    "version": "1.0.0",
+    "description": "a bootleg version of nekobot + misaki with alot more commands",
+    "main": "shiina.js",
+    "scripts": {
+        "start": "node shiina.js"
+    },
+    "author": "andrew#0001",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "discord.js": "^12.5.1",
+        "discord.js-commando": "^0.12.2",
+        "dotenv": "^8.2.0"
+      }
+}
