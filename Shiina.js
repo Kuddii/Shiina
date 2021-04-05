@@ -31,6 +31,7 @@ client.registry
 		['animal', 'gato'],
 		['general', 'tired of doing these'],
 		['fun', 'use fun commands'],
+		['moderation', 'mod stuff :sunglasses:']
 	])
 	.registerCommandsIn(path.join(__dirname, 'modules'));
 
