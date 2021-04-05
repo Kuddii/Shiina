@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { CommandClient, SQLiteProvider } = require('discord.js-commando');
+const { CommandoClient, SQLiteProvider } = require('discord.js-commando');
 const { PREFIX, UWUOWO, KEIKOV2, INVITELOL } = process.env;
 const sqlite3 = require('sqlite3');
 const sqlite = require('sqlite');
