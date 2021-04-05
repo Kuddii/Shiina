@@ -32,6 +32,7 @@ client.registry
 		['general', 'tired of doing these'],
 		['fun', 'use fun commands'],
 		['moderation', 'mod stuff :sunglasses:']
+		['nsfw', 'UwU']
 	])
 	.registerCommandsIn(path.join(__dirname, 'modules'));
 
