@@ -19,7 +19,7 @@ module.exports = class moderation extends Command {
 
         args++;
 
-        if (args < 1 || !Number.isInteger(Number(flip))) {
+        if (args < 1 || !Number.isInteger(Number(args))) {
             return msg.channel.send('must be number')
         }
 
