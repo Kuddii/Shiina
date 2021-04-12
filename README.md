@@ -1,10 +1,12 @@
 # Shiina
 UwU 
 
-a very basic version of the bot this is based off
-[Invite](https://discord.com/oauth2/authorize?client_id=808445215617974313&scope=bot%20applications.commands&permissions=1010166905)
+a very basic version of the bot this is based off [invite](https://top.gg/bot/808445215617974313/invite/)
+
 
 [![Discord](https://img.shields.io/discord/781158416521101312?style=for-the-badge)](https://discord.gg/QJaGpnd7wY)
+
+[![Discord Bots](https://top.gg/api/widget/808445215617974313.svg)](https://top.gg/bot/808445215617974313)
 
 ## Cool People
 
