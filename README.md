@@ -9,14 +9,8 @@ a very basic version of the bot this is based off [invite](https://top.gg/bot/80
 
 <p align="center">
   <img width="200" src="https://cdn.discordapp.com/avatars/392469686060711937/a_b64c526db7b4584acba5f284d614baba.png">
+    <img width="200" src="https://cdn.discordapp.com/avatars/780049785448693782/1d45a71f8d8b63423de5a9b0ee8aba60.png">
 </p>
 <p align="center">
-  andrew#0001
-</p>
-
-<p align="center">
-  <img width="200" src="https://cdn.discordapp.com/avatars/780049785448693782/1d45a71f8d8b63423de5a9b0ee8aba60.png">
-</p>
-<p align="center">
-  axqm#4978
+  andrew#0001    axqm#4978
 </p>
