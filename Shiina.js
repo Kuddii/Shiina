@@ -17,6 +17,8 @@ sqlite.open({ filename: 'kamikaze.db', driver: sqlite3.Database }).then((db) => 
 	client.setProvider(new SQLiteProvider(db));
 });
 
+client.login(UWUOWO);
+
 client.registry
 	.registerDefaultTypes()
 	.registerDefaultGroups()
@@ -38,3 +40,6 @@ client.registry
 
 client.on("warn", (e) => console.warn(e));
 client.on("error", (e) => console.error(e));
+client.on("commandError", (command, err) => {
+	console.log(`${[command]} ${err.stack}`);
+})
