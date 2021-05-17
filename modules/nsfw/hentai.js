@@ -4,11 +4,12 @@ const r = require('node-superfetch');
 module.exports = class hentai extends Command {
     constructor(client) {
         super(client, {
-            name: '',
-            group: '',
-            description: '',
-            memberName: '',
+            name: 'hentai',
+            group: 'nsfw',
+            description: 'hentai',
+            memberName: 'hentai',
             guildOnly: true,
+            nsfw: true,
         })
     }
     async run(msg) {
