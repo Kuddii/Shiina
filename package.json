@@ -13,6 +13,6 @@
         "discord.js": "^12.5.1",
         "discord.js-commando": "^0.12.2",
         "dotenv": "^8.2.0",
-        "node-superfetch": "^0.1.11"
+        "node-superfetch": "^0.2.3"
     }
 }
